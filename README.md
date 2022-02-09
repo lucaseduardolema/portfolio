@@ -5,4 +5,5 @@
 <ol>
   <li>Netflix - Clone</li>
   <li>Spotify - Clone</li>
+  <li>App Calculadora</li>
 </ol>  
