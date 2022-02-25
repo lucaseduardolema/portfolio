@@ -7,4 +7,6 @@
   <li>Spotify - Clone</li>
   <li>App Calculadora</li>
   <li>Saruê Page</li>
+  <li>Finans Page</li>
+  <li>Game Mata Mosquito</li>
 </ol>  

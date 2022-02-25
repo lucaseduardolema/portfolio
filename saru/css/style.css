@@ -1,7 +1,6 @@
 /* geral */
 * {
     font-size: 18px;
-    overflow-x: hidden;
     font-family: Comfortaa, sans-serif;
 }
 
@@ -66,17 +65,18 @@ section#topo p {
     text-align: center;
     font-size: 40px;
 }
+#conteudo2 p {
+    text-align: justify;
+}
 .castelo, .caicara {
     padding-bottom: 15px;
 }
-
 /* conteudo3 */
 #conteudo3 {
     background-color: #fff;
     margin-bottom: 40px;
     padding-bottom: 40px
 }
-
 #conteudo3 h2 {
     text-align: center;
     padding: 15px;
@@ -86,7 +86,6 @@ section#topo p {
     font-size: 25px;
     text-align: center;
 }
-
 .carousel-inner > .carousel-item > img {
     max-height: 1024px; 
 }
@@ -101,17 +100,19 @@ footer h5, li {
     border: solid rgba(0, 0, 0, .15);
     border-width: 1px 0;
     box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-  }
-  
-  .bi {
+}
+.bi {
     vertical-align: -.125em;
     fill: currentColor;
-  }
+}
   
 
 /* responsividade */
 /*Extra small devices (portrait phones, menor que 576px)*/
 @media (max-width: 575.98px) {
+    * {
+        overflow-x: hidden;
+    }
     .botoesRedes li {
         padding: 10px;
     }
@@ -136,29 +137,17 @@ footer h5, li {
     h3 {
         font-size: 29px;
     }
-    footer, p, h5, li, a {
+    footer p, h5, li, a {
         font-size: 12px;
     }
     #pe .redesFooter {
         text-align: center;
         width: 100%;
     }
-    #pe .redesFooter ul li a {
-        padding-left: 30px;
-        display: inline-flex;
-    }
-    #pe .contatoFooter {
-        text-align: center;
-        padding: 0;
-        width: 120px;
-    }
-    #pe .horarioFooter {
-        width: 150px;
-    }
-  }
+}
 
-  /*Small devices (landscape phones, 576px e maiores)*/
-  @media (min-width: 576px) and (max-width: 767.98px) {
+/*Small devices (landscape phones, 576px e maiores)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
     .botoesRedes li {
         padding: 10px;
     }
@@ -181,39 +170,26 @@ footer h5, li {
     h3 {
         font-size: 29px;
     }
-    footer, p, h5, li, a {
+    footer p, h5, li, a {
         font-size: 12px;
     }
     #pe .redesFooter {
         text-align: center;
         width: 100%;
     }
-    #pe .redesFooter ul li a {
-        padding-left: 30px;
-        display: inline-flex;
-    }
-    #pe .contatoFooter {
-        text-align: center;
-        padding: 0;
-        width: 120px;
-    }
-    #pe .horarioFooter {
-        width: 150px;
-    }
-  }
-
-  /*Medium devices (tablets, 768px e maiores)*/
-  @media (min-width: 768px) and (max-width: 991.98px) {
-    #pe .redesFooter ul li a {
-        padding-left: 30px;
-        display: inline-flex;
-  }
-
-  /*Large devices (desktops, 992px e maiores)*/
-  @media (min-width: 992px) and (max-width: 1199.98px) {
     
-  }
+}
 
-  /*Extra large devices (large desktops, 1200px  e maiores)*/
-  @media (min-width: 1200px) {
-  }
+/*Medium devices (tablets, 768px e maiores)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+/*Large devices (desktops, 992px e maiores)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/*Extra large devices (large desktops, 1200px  e maiores)*/
+@media (min-width: 1200px) {
+}
